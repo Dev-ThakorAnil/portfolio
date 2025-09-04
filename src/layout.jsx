@@ -71,7 +71,7 @@ export default function Layout({ children }) {
       `}</style>
 
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 nav-blur">
+      <nav className="fixed top-0 left-0 right-0 z-50 nav-blur shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
@@ -135,7 +135,7 @@ export default function Layout({ children }) {
       </nav>
 
       {/* Main Content */}
-      <main className="pt-16">
+      <main className="pt-20 md:pt-16">
         {children}
       </main>
 
